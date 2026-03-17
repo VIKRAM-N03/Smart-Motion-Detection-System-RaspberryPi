@@ -27,6 +27,7 @@ try:
             print("Motion Detected!")
 
             image = capture_image()
+            
             send_email(image)
 
             time.sleep(10)
